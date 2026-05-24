@@ -188,10 +188,22 @@ function LegalLayoutInner({ type }: { type: "tos" | "privacy" }) {
         }
       },
       {
-        rootMargin: "-10% 0px -80% 0px",
-        threshold: [0, 0.25, 0.5, 0.75, 1],
+        rootMargin: "-10% 0px -50% 0px",
+        threshold: [0, 0.1, 0.25, 0.5],
       }
     );
+
+    // Fallback: when scrolled near bottom, activate last section
+    const handleScroll = () => {
+      const scrollBottom =
+        window.innerHeight + window.scrollY >=
+        document.body.offsetHeight - 100;
+      if (scrollBottom) {
+        const lastId = sections[sections.length - 1]?.id;
+        if (lastId) setActiveSection(lastId);
+      }
+    };
+    window.addEventListener("scroll", handleScroll, { passive: true });
 
     const elements = sections
       .map((s) => document.getElementById(s.id))
@@ -199,7 +211,10 @@ function LegalLayoutInner({ type }: { type: "tos" | "privacy" }) {
 
     elements.forEach((el) => observer.observe(el));
 
-    return () => observer.disconnect();
+    return () => {
+      observer.disconnect();
+      window.removeEventListener("scroll", handleScroll);
+    };
   }, [sections]);
 
   const contactInfo = app.slug === "blinkerp"
