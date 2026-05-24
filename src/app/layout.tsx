@@ -17,10 +17,10 @@ const dmSans = DM_Sans({
 export const metadata: Metadata = {
   title: {
     default: "Terms of Service",
-    template: "%s — Acme Inc.",
+    template: "%s — AbdulazizWB",
   },
   description:
-    "Terms of Service and Privacy Policy for Acme Inc. — understand your rights and our commitments.",
+    "Terms of Service and Privacy Policy for AbdulazizWB — understand your rights and our commitments.",
 };
 
 export default function RootLayout({

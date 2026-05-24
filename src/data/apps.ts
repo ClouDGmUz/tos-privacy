@@ -11,8 +11,8 @@ export interface AppLegal {
 
 export const apps: AppLegal[] = [
   {
-    slug: "acme",
-    name: "Acme Platform",
+    slug: "abdulazizwb",
+    name: "AbdulazizWB",
     tosLastUpdated: "2026-05-15",
     privacyLastUpdated: "2026-05-15",
     tos: [
@@ -20,8 +20,8 @@ export const apps: AppLegal[] = [
         id: "introduction",
         title: "Introduction",
         content: [
-          'Welcome to Acme Inc. ("Company," "we," "our," or "us"). By accessing or using any of our websites, applications, APIs, or services (collectively, the "Services"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, you may not access or use the Services.',
-          "These Terms constitute a legally binding agreement between you and Acme Inc. Please read them carefully before using the Services. We reserve the right to update these Terms at any time, and your continued use of the Services after any changes constitutes acceptance of the revised Terms.",
+          'Welcome to AbdulazizWB ("Company," "we," "our," or "us"). By accessing or using any of our websites, applications, APIs, or services (collectively, the "Services"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, you may not access or use the Services.',
+          "These Terms constitute a legally binding agreement between you and AbdulazizWB Please read them carefully before using the Services. We reserve the right to update these Terms at any time, and your continued use of the Services after any changes constitutes acceptance of the revised Terms.",
         ],
       },
       {
@@ -53,9 +53,9 @@ export const apps: AppLegal[] = [
         id: "intellectual-property",
         title: "Intellectual Property",
         content: [
-          "The Services and all content, features, and functionality thereof — including but not limited to text, graphics, logos, icons, images, audio clips, video, data compilations, software, and the design and arrangement thereof — are owned by Acme Inc., its licensors, or other providers and are protected by copyright, trademark, patent, trade secret, and other intellectual property laws.",
+          "The Services and all content, features, and functionality thereof — including but not limited to text, graphics, logos, icons, images, audio clips, video, data compilations, software, and the design and arrangement thereof — are owned by AbdulazizWB, its licensors, or other providers and are protected by copyright, trademark, patent, trade secret, and other intellectual property laws.",
           "You are granted a limited, non-exclusive, non-transferable, revocable license to access and use the Services for your personal or internal business purposes. You may not reproduce, distribute, modify, create derivative works of, publicly display, publicly perform, republish, download, store, or transmit any material from the Services without our express prior written consent.",
-          "All trademarks, service marks, trade names, logos, and trade dress displayed on the Services are the property of Acme Inc. or their respective owners. Nothing in these Terms grants you any right to use any trademark without the prior written permission of the owner.",
+          "All trademarks, service marks, trade names, logos, and trade dress displayed on the Services are the property of AbdulazizWB or their respective owners. Nothing in these Terms grants you any right to use any trademark without the prior written permission of the owner.",
         ],
       },
       {
@@ -70,8 +70,8 @@ export const apps: AppLegal[] = [
         id: "third-party",
         title: "Third-Party Services",
         content: [
-          "The Services may contain links to third-party websites, applications, or services that are not owned or controlled by Acme Inc. We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party services.",
-          "You acknowledge and agree that Acme Inc. shall not be liable for any damage or loss caused or alleged to be caused by or in connection with your use of or reliance on any third-party content, goods, or services. We encourage you to review the terms and privacy policies of any third-party services you access.",
+          "The Services may contain links to third-party websites, applications, or services that are not owned or controlled by AbdulazizWB We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party services.",
+          "You acknowledge and agree that AbdulazizWB shall not be liable for any damage or loss caused or alleged to be caused by or in connection with your use of or reliance on any third-party content, goods, or services. We encourage you to review the terms and privacy policies of any third-party services you access.",
         ],
       },
       {
@@ -79,7 +79,7 @@ export const apps: AppLegal[] = [
         title: "Disclaimers & Limitations of Liability",
         content: [
           'THE SERVICES ARE PROVIDED ON AN "AS IS" AND "AS AVAILABLE" BASIS WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT.',
-          "TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, ACME INC., ITS AFFILIATES, OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, AND LICENSORS SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING WITHOUT LIMITATION LOSS OF PROFITS, DATA, USE, GOODWILL, OR OTHER INTANGIBLE LOSSES, ARISING OUT OF OR IN CONNECTION WITH YOUR USE OF THE SERVICES.",
+          "TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, ABDULAZIZWB, ITS AFFILIATES, OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, AND LICENSORS SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING WITHOUT LIMITATION LOSS OF PROFITS, DATA, USE, GOODWILL, OR OTHER INTANGIBLE LOSSES, ARISING OUT OF OR IN CONNECTION WITH YOUR USE OF THE SERVICES.",
           "In no event shall our total liability to you for all claims arising out of or relating to these Terms or the Services exceed the greater of: (a) the amount you paid to us in the twelve (12) months preceding the claim, or (b) one hundred U.S. dollars ($100.00).",
         ],
       },
@@ -87,7 +87,7 @@ export const apps: AppLegal[] = [
         id: "indemnification",
         title: "Indemnification",
         content: [
-          "You agree to defend, indemnify, and hold harmless Acme Inc., its affiliates, officers, directors, employees, agents, and licensors from and against any and all claims, damages, obligations, losses, liabilities, costs, and expenses (including reasonable attorneys' fees) arising from: (a) your use of the Services; (b) your violation of these Terms; (c) your User Content; or (d) your infringement of any third-party rights.",
+          "You agree to defend, indemnify, and hold harmless AbdulazizWB, its affiliates, officers, directors, employees, agents, and licensors from and against any and all claims, damages, obligations, losses, liabilities, costs, and expenses (including reasonable attorneys' fees) arising from: (a) your use of the Services; (b) your violation of these Terms; (c) your User Content; or (d) your infringement of any third-party rights.",
           "We reserve the right to assume the exclusive defense and control of any matter subject to indemnification by you, in which case you agree to cooperate fully with us in asserting any available defenses.",
         ],
       },
@@ -129,7 +129,7 @@ export const apps: AppLegal[] = [
         id: "introduction",
         title: "Introduction",
         content: [
-          "At Acme Inc., we take your privacy seriously. This Privacy Policy describes how we collect, use, store, share, and protect your personal information when you access or use our websites, applications, APIs, and services (collectively, the \"Services\"). It also explains the choices you have regarding your information.",
+          "At AbdulazizWB, we take your privacy seriously. This Privacy Policy describes how we collect, use, store, share, and protect your personal information when you access or use our websites, applications, APIs, and services (collectively, the \"Services\"). It also explains the choices you have regarding your information.",
           "By using the Services, you consent to the collection and use of information in accordance with this policy. If you do not agree with any part of this policy, please discontinue use of the Services immediately.",
         ],
       },
@@ -163,7 +163,7 @@ export const apps: AppLegal[] = [
         content: [
           "We do not sell your personal information. We may share your information only in the following limited circumstances:",
           "Service Providers: We engage trusted third-party companies and individuals to perform services on our behalf — such as payment processing, data hosting, analytics, email delivery, and customer support.",
-          "Business Transfers: If Acme Inc. is involved in a merger, acquisition, asset sale, financing, or bankruptcy proceeding, your information may be transferred as part of that transaction.",
+          "Business Transfers: If AbdulazizWB is involved in a merger, acquisition, asset sale, financing, or bankruptcy proceeding, your information may be transferred as part of that transaction.",
           "Legal Compliance: We may disclose your information where required to do so by law, subpoena, court order, or other legal process.",
           "With Your Consent: We may share your information for any other purpose with your explicit consent.",
         ],

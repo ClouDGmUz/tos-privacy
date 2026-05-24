@@ -33,7 +33,7 @@ function Sidebar({
             href="/"
             className="block font-serif text-lg font-semibold text-foreground no-underline hover:text-foreground tracking-tight"
           >
-            Acme Inc.
+            AbdulazizWB
           </Link>
           <span className="block mt-1 text-xs font-medium tracking-[0.2em] uppercase text-muted">
             {title}
@@ -202,9 +202,9 @@ function LegalLayoutInner({ type }: { type: "tos" | "privacy" }) {
     return () => observer.disconnect();
   }, [sections]);
 
-  const contactInfo = app.slug === "acme"
+  const contactInfo = app.slug === "abdulazizwb"
     ? {
-        email: "legal@acme.example.com",
+        email: "legal@abdulazizwb.com",
         address: "100 Corporate Drive, Suite 400, Wilmington, DE 19801, United States",
       }
     : app.slug === "beta"
