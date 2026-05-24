@@ -4,7 +4,7 @@ import { useEffect, useRef, useState, Suspense } from "react";
 import Link from "next/link";
 import { useSearchParams, useRouter, usePathname } from "next/navigation";
 import type { LegalSection } from "@/data/tos";
-import { apps, defaultApp, getApp } from "@/data/apps";
+import { apps, getApp } from "@/data/apps";
 
 function Sidebar({
   sections,
@@ -202,19 +202,14 @@ function LegalLayoutInner({ type }: { type: "tos" | "privacy" }) {
     return () => observer.disconnect();
   }, [sections]);
 
-  const contactInfo = app.slug === "abdulazizwb"
+  const contactInfo = app.slug === "blinkerp"
     ? {
-        email: "legal@abdulazizwb.com",
-        address: "100 Corporate Drive, Suite 400, Wilmington, DE 19801, United States",
-      }
-    : app.slug === "beta"
-    ? {
-        email: "legal@beta-analytics.example.com",
-        address: "200 Data Drive, Floor 12, San Francisco, CA 94105, United States",
+        email: "info@abdulazizwb.uz",
+        address: "Tashkent, Uzbekistan",
       }
     : {
-        email: "legal@devtool.example.com",
-        address: "1 API Way, Building 3, Austin, TX 78701, United States",
+        email: "info@abdulazizwb.uz",
+        address: "Tashkent, Uzbekistan",
       };
 
   return (
