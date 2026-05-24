@@ -205,11 +205,11 @@ function LegalLayoutInner({ type }: { type: "tos" | "privacy" }) {
   const contactInfo = app.slug === "blinkerp"
     ? {
         email: "info@abdulazizwb.uz",
-        address: "Tashkent, Uzbekistan",
+        address: "Fergana, Uzbekistan",
       }
     : {
         email: "info@abdulazizwb.uz",
-        address: "Tashkent, Uzbekistan",
+        address: "Fergana, Uzbekistan",
       };
 
   return (
