@@ -26,7 +26,7 @@ function Sidebar({
 
   return (
     <aside className="w-[240px] shrink-0 hidden lg:block sticky top-0 h-screen">
-      <div className="flex flex-col h-full py-16 pr-8 border-r border-border">
+      <div className="flex flex-col h-full py-16 px-8 border-r border-border">
         {/* Branding */}
         <div className="mb-6">
           <Link
@@ -213,7 +213,7 @@ function LegalLayoutInner({ type }: { type: "tos" | "privacy" }) {
       };
 
   return (
-    <div className="flex min-h-screen">
+    <div className="flex min-h-screen max-w-[1200px] mx-auto">
       <Sidebar
         sections={sections}
         activeSection={activeSection}
