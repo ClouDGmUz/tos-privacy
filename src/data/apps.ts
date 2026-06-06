@@ -485,6 +485,180 @@ export const apps: AppLegal[] = [
       },
     ],
   },
+  {
+    slug: "easypos",
+    name: "EasyPOS",
+    tosLastUpdated: "2026-06-06",
+    privacyLastUpdated: "2026-06-06",
+    tos: [
+      {
+        id: "acceptance",
+        title: "Acceptance",
+        content: [
+          'By using EasyPOS ("the App"), you agree to these Terms of Service. If you do not agree, do not use the App.',
+          "EasyPOS is developed and operated by AbdulazizWB.",
+        ],
+      },
+      {
+        id: "description",
+        title: "Description of the App",
+        content: [
+          "EasyPOS is an offline-first Android application for small businesses that buy stock from suppliers and sell to clients on credit. The App tracks products, stock movements (supply and sales), client debts, and payments.",
+          "Core features include: product catalog with images, stock management (supply in, sales out, returns), client credit management (debts, payments, sale history), and financial reports.",
+          "Optional cloud sync is available via user account for backup and multi-device access.",
+        ],
+      },
+      {
+        id: "accounts",
+        title: "User Accounts",
+        content: [
+          "You may register using Telegram authentication. You are responsible for maintaining the security of your account.",
+          "One account corresponds to one business dataset. If you register on behalf of a business, you represent that you have authority to do so.",
+        ],
+      },
+      {
+        id: "data-ownership",
+        title: "Data Ownership",
+        content: [
+          "All data you create (products, clients, sales, payments, stock movements) belongs to you.",
+          "The App stores data locally on your device. If you enable cloud sync, data is also stored on our servers (Supabase-hosted infrastructure).",
+          "You may export or delete your data at any time.",
+        ],
+      },
+      {
+        id: "acceptable-use",
+        title: "Acceptable Use",
+        content: [
+          "You agree not to: (a) use the App for illegal activities; (b) attempt to reverse-engineer, hack, or disrupt the service; (c) share your account credentials with unauthorized parties.",
+        ],
+      },
+      {
+        id: "availability",
+        title: "Service Availability",
+        content: [
+          "The App works fully offline. No internet connection is required for core functionality.",
+          "Cloud sync features depend on third-party infrastructure and may experience downtime. We do not guarantee 100% uptime for cloud services.",
+        ],
+      },
+      {
+        id: "liability",
+        title: "Limitation of Liability",
+        content: [
+          'The App is provided "as is." AbdulazizWB is not liable for any data loss, financial discrepancies, or damages arising from use of the App.',
+          "You are responsible for verifying the accuracy of your records. The App does not block negative stock or prevent operational errors — it prioritizes offline usability over strict validation.",
+        ],
+      },
+      {
+        id: "changes",
+        title: "Changes to These Terms",
+        content: [
+          "We may update these Terms at any time. Continued use after changes constitutes acceptance.",
+        ],
+      },
+      {
+        id: "contact",
+        title: "Contact",
+        content: [
+          "For questions about these Terms of Service:",
+        ],
+      },
+    ],
+    privacy: [
+      {
+        id: "introduction",
+        title: "Introduction",
+        content: [
+          "EasyPOS is created by AbdulazizWB. This Privacy Policy describes what data we collect, how we use it, and your rights.",
+        ],
+      },
+      {
+        id: "data-local",
+        title: "Data Stored Locally",
+        content: [
+          "The following data is stored on your device in a local database:",
+          "Product catalog (name, price, images), client information (name, phone number), stock movements (supply, sales, returns with quantities and prices), and financial entries (debts and payments with amounts and timestamps).",
+          "This data never leaves your device unless you explicitly enable cloud sync.",
+        ],
+      },
+      {
+        id: "data-cloud",
+        title: "Data Stored on Cloud (Sync Enabled)",
+        content: [
+          "When you enable cloud sync, the following is stored on our servers:",
+          "All local data listed above, Telegram user ID and display name (for authentication), product images (in cloud storage), and timestamps of sync operations.",
+        ],
+      },
+      {
+        id: "data-not-collected",
+        title: "Data We Do NOT Collect",
+        content: [
+          "We do not collect: location data, contacts or call logs, advertising identifiers, analytics or usage tracking, or any data beyond what is listed above.",
+        ],
+      },
+      {
+        id: "how-we-use-data",
+        title: "How We Use Data",
+        content: [
+          "Local storage: All core functionality works offline. Data stays on your device unless you explicitly sync.",
+          "Cloud sync: When enabled, your business data is uploaded to Supabase-hosted PostgreSQL servers for backup and multi-device access.",
+          "Authentication: Telegram login is used solely to identify your account. We store only your Telegram user ID and display name.",
+        ],
+      },
+      {
+        id: "data-sharing",
+        title: "Data Sharing",
+        content: [
+          "We do not sell, share, or transfer your data to third parties. Your data is accessible only to you via your authenticated account.",
+        ],
+      },
+      {
+        id: "data-security",
+        title: "Data Storage & Security",
+        content: [
+          "Local data is stored in a SQLite database on your device.",
+          "Cloud data is stored on Supabase infrastructure with Row-Level Security (RLS) — only your authenticated account can access your rows.",
+          "Product images are stored in Supabase Storage, accessible only to your account.",
+        ],
+      },
+      {
+        id: "data-retention",
+        title: "Data Retention & Deletion",
+        content: [
+          "Local data persists until you uninstall the App or clear app data.",
+          "Cloud data persists until you request deletion.",
+          "To delete all cloud data, contact the creator or use the in-app delete option when available.",
+        ],
+      },
+      {
+        id: "children",
+        title: "Children's Privacy",
+        content: [
+          "The App is not directed at children under 13. We do not knowingly collect data from children.",
+        ],
+      },
+      {
+        id: "your-rights",
+        title: "Your Rights",
+        content: [
+          "You have the right to: access all your stored data, export your data, delete your account and all associated cloud data, and use the App fully offline without any cloud data collection.",
+        ],
+      },
+      {
+        id: "changes",
+        title: "Changes to This Policy",
+        content: [
+          "We may update this policy. Changes will be reflected in the \"Last updated\" date.",
+        ],
+      },
+      {
+        id: "contact",
+        title: "Contact",
+        content: [
+          "For privacy inquiries or data requests:",
+        ],
+      },
+    ],
+  },
 ];
 
 export function getApp(slug: string | null): AppLegal {
