@@ -293,6 +293,28 @@ function LegalLayoutInner({ type }: { type: "tos" | "privacy" }) {
                 })}
               </time>
             </p>
+            <div className="mt-5 flex gap-2">
+              <Link
+                href={`/?app=${app.slug}`}
+                className={`text-xs px-3 py-1.5 rounded-full border transition-all no-underline ${
+                  type === "tos"
+                    ? "border-accent/40 text-accent bg-accent/10"
+                    : "border-border text-muted hover:text-foreground hover:border-muted/40"
+                }`}
+              >
+                Terms of Service
+              </Link>
+              <Link
+                href={`/privacy?app=${app.slug}`}
+                className={`text-xs px-3 py-1.5 rounded-full border transition-all no-underline ${
+                  type === "privacy"
+                    ? "border-accent/40 text-accent bg-accent/10"
+                    : "border-border text-muted hover:text-foreground hover:border-muted/40"
+                }`}
+              >
+                Privacy Policy
+              </Link>
+            </div>
           </header>
 
           <hr className="mb-16 border-border" />
