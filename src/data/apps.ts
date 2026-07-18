@@ -14,7 +14,7 @@ export const apps: AppLegal[] = [
     slug: "blinkerp",
     name: "BlinkERP",
     tosLastUpdated: "2026-05-20",
-    privacyLastUpdated: "2026-05-20",
+    privacyLastUpdated: "2026-07-18",
     tos: [
       {
         id: "introduction",
@@ -163,6 +163,7 @@ export const apps: AppLegal[] = [
           "Attendance & Check-In Data: Clock-in/clock-out timestamps, check-in location (GPS coordinates), device name, device model, and operating system version. This data is collected when an employee uses the check-in feature on an Android device.",
           "Active Location Data: For field personnel using the employee tracking feature, real-time GPS location data is collected during active work sessions. Location collection stops when the employee clocks out or ends their session.",
           "ERP Operational Data: Inventory records, procurement data, sales orders, invoices, financial transactions, and other business operational data entered by users.",
+          "Lead & Prospect Data: Contact details (name, phone number, email address) and other answers a person voluntarily submits through a Facebook or Instagram lead form connected to BlinkERP, together with associated campaign metadata (ad, form, and campaign identifiers). See the \"Meta Lead Ads & CRM Integration\" section below.",
           "Usage & Diagnostic Data: App crash logs, feature usage statistics, API request metadata (endpoint, timestamp, response status), and device OS version for compatibility and performance improvement.",
           "We do not collect: biometric data (fingerprints, facial recognition), health information, or sensitive personal identifiers beyond what is listed above.",
         ],
@@ -177,6 +178,18 @@ export const apps: AppLegal[] = [
           "Communication: Sending service notifications, account alerts, security updates, and support responses. We do not send marketing communications to individual employees without their opt-in consent.",
           "Security & Compliance: Monitoring for unauthorized access, fraud detection, enforcing our Terms of Service, and complying with legal obligations.",
           "We do not sell personal data. We do not use employee personal data for purposes unrelated to providing the Services.",
+        ],
+      },
+      {
+        id: "meta-lead-ads",
+        title: "Meta Lead Ads & CRM Integration",
+        content: [
+          "BlinkERP integrates with Meta Platforms, Inc. (Facebook and Instagram) Lead Ads. When a person submits a lead form on a Facebook or Instagram advertisement run by us or by an organization using BlinkERP, the submitted form data is automatically retrieved through Meta's APIs and imported into that organization's CRM within BlinkERP.",
+          "Data received from Meta: The information the person entered in the lead form — typically name, phone number, email address, and answers to any custom questions — together with campaign metadata such as the ad, form, and campaign identifiers and the submission timestamp. We do not receive Facebook passwords, friend lists, or any profile information beyond what the person submitted in the form.",
+          "How lead data is used: Lead data is used solely so the organization that ran the advertisement can respond to the inquiry — sales follow-up, quotations, and customer relationship management. Lead data is not sold, is not shared with unrelated third parties, and is not used for purposes unrelated to responding to the person's request.",
+          "Legal basis and consent: By submitting a lead form, the person voluntarily provides their contact information and consents to being contacted about the advertised product or service, as also disclosed in Meta's lead form privacy notice.",
+          "Retention and deletion: Lead records are retained according to the organization's CRM retention settings. A person may request deletion of their lead data at any time — by removing the app in their Facebook settings (Settings & Privacy → Apps and Websites), which automatically triggers our data deletion endpoint, by using our data deletion page, or by emailing us. Deletion requests are completed within thirty (30) days.",
+          "Our use of data received from Meta complies with the Meta Platform Terms and Developer Policies.",
         ],
       },
       {
